@@ -14,8 +14,11 @@
     margin-bottom: 30px;
 }
 
+.card p {
+    color: #282828;
+}
+
 .card {
-    padding-left: 300px;
-    padding-top: 100px;
+    padding: 100px;
     background-color: #fff;
 }
