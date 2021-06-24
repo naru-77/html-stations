@@ -34,7 +34,7 @@ header {
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
     .card__description{
         font-size: 9px;
@@ -44,7 +44,7 @@ header {
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
     .card__description{
         display: none;
