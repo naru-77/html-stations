@@ -1,0 +1,55 @@
+header {
+    background-color: #ffffff;
+    height: 10px;
+}
+
+.card_title {
+    color: #282828;
+    font-size: 14px;
+}
+
+.card__description {
+    color: #282828;
+    font-size: 12px;
+}
+
+.card img {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: #282828;
+}
+
+.card {
+    padding: 100px;
+    background-color: #fff;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+    .card__description{
+        font-size: 9px;
+    }
+    .card_title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+    .card__description{
+        display: none;
+    }
+    .card_title {
+        font-size: 12px;
+    }
+}
