@@ -3,7 +3,7 @@ header {
     height: 10px;
 }
 
-.card_title {
+.card__title {
     color: #282828;
     font-size: 14px;
 }
@@ -36,7 +36,7 @@ header {
 
 @media screen and (max-width: 1200px) {
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
-    .card_title {
+    .card__title {
         font-size: 10px;
     }
 }
@@ -46,7 +46,7 @@ header {
     .card__description{
         font-size: 9px;
     }
-    .card_title {
+    .card__title {
         font-size: 9px;
     }
 }
@@ -56,7 +56,7 @@ header {
     .card__description{
         display: none;
     }
-    .card_title {
+    .card__title {
         font-size: 6px;
     }
 }
